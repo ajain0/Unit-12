@@ -1,6 +1,12 @@
+let userNum = document.getElementById("getNumber") // code works when you press enter
+userNum.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+        run()
+    }
+});
+
 function run(){ // click and change
     const y = document.getElementById("paragraph");
-    y.innerHTML = "Hello world!"
     y.style.backgroundColor = "green";
     y.style.color = "#ffffff";
     y.style.padding = "20px" ;
@@ -43,7 +49,8 @@ function CompareNumbers() {
     if(a != b){
         d.innerHTML = "Numbers are not the same computer got " + b + ", user got " + a; 
     } else if (a == b){
-        d.innerHTML = "Numbers are not the same computer got " + b + ", user got " + a; 
+        d.innerHTML = "Numbers are the same computer got " + b + ", user got " + a; 
     }
     
 }
+
