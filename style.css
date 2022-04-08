@@ -1,0 +1,53 @@
+#getNumber {
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.inputNumberBox {
+    display: flex;
+    justify-content: center;
+}
+/* 
+#paragraph {
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 30px;
+} */
+
+.header{
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-align: center;
+} 
+
+.instructions{
+    background-color:(transparent);
+    color: black;
+    padding: 20px;
+    text-align: center;
+} 
+
+ .web{
+    background-color: #7585ff;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    font-family: 'Inconsolata', monospace;
+} 
+
+ .special{
+    height: 100%;
+    width: 33%;
+    background-color: gold;
+    z-index: -1;
+    position: relative;
+    left: 480px;
+    top: -280px;
+} 
+
+.header{
+    color: black;
+}
